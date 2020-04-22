@@ -1,0 +1,10 @@
+a=5;b=2; c= 0;
+while (b < 5)
+c = c + a;
+	if(c > 10)
+		c = 10;
+end
+b = b + 1;
+end
+print c;
+end
